@@ -1,0 +1,11 @@
+*.class
+.DS_Store
+*.info
+*.ol
+pwd
+__pycache__
+.vscode/
+.idea
+*.pyc
+*.xlsx
+*.log*

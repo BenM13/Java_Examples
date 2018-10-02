@@ -114,6 +114,6 @@ public class Pet
     {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
-        System.out.println("Weight " + weight + " pounds");
+        System.out.println("Weight: " + weight + " pounds");
     }
 }

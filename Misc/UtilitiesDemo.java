@@ -8,6 +8,16 @@ public class UtilitiesDemo
         System.out.println("Enter an integer: ");
         System.out.print("--> ");
         String input = keyboard.nextLine();
-        System.out.println("You entered: " + Utilities.checkInt(input));
+        System.out.println("You entered: " + Utilities.convertToInt(input));
+
+        int yourInt;
+        do 
+        {
+            System.out.println("\nEnter a new integer: ");
+            System.out.print("--> ");
+            input = keyboard.nextLine();
+        } while (!(Utilities.checkInt(input)));
+        yourInt = Integer.parseInt(input);
+        System.out.println("You entered: " + yourInt);
     }
 }

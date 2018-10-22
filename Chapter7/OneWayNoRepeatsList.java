@@ -107,7 +107,7 @@ public class OneWayNoRepeatsList
         return entry.length;
     }
 
-    public int getNumEntries();
+    public int getNumEntries()
     {
         return countOfEntries;
     }

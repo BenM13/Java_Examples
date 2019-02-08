@@ -1,6 +1,8 @@
 // Chapter 10, Listing 10.1
 
 import java.io.PrintWriter;
+import java.io.File;
+import java.io.FileWriter;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
